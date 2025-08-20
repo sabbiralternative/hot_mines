@@ -1,16 +1,8 @@
 import { useSelector } from "react-redux";
-import { useAuth } from "../../../../../double_wheel/double_wheel/src/hooks/auth";
-import { useEffect } from "react";
 
 const Navbar = () => {
-  const { token, balance } = useSelector((state) => state.auth);
-  const { mutate: handleAuth } = useAuth();
+  const { balance } = useSelector((state) => state.auth);
 
-  useEffect(() => {
-    if (token) {
-      handleAuth();
-    }
-  }, [token, handleAuth]);
   return (
     <header className="header_cl">
       <div className="header_lft">

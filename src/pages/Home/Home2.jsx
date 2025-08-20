@@ -1,10 +1,6 @@
-import { useSelector } from "react-redux";
-
 const Home = () => {
-  const { token } = useSelector((state) => state.auth);
-  const errorMessage = sessionStorage.getItem("errorMessage");
-  return token ? (
-    <div className="wrapper">
+  return (
+    <div id="root" className="wrapper">
       <div id="loader-box" style={{ display: "none" }} className="loaderBox">
         <div
           className="verCenter middle"
@@ -728,64 +724,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-0 ringSmall0"
                 data-slot={0}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-0deg" }}
               >
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "36deg" }}
                 >
                   -angle 1
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall0 gradient-text"
                   data-root-numanimholder2-0
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -800,64 +807,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-1 ringSmall1"
                 data-slot={0}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-0deg" }}
               >
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall1 gradient-text"
                   data-root-numanimholder2-1
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -872,64 +890,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-2 ringSmall2"
                 data-slot={0}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-0deg" }}
               >
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall2 gradient-text"
                   data-root-numanimholder2-2
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -944,64 +973,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-3 ringSmall3"
                 data-slot={0}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-0deg" }}
               >
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall3 gradient-text"
                   data-root-numanimholder2-3
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -1016,64 +1056,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-4 ringSmall4"
                 data-slot={0}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-0deg" }}
               >
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall4 gradient-text"
                   data-root-numanimholder2-4
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -1088,64 +1139,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-5 ringSmall5"
                 data-slot={4}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-144deg" }}
               >
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall5 gradient-text"
                   data-root-numanimholder2-5
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -1156,64 +1218,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-6 ringSmall6"
                 data-slot={2}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-792deg" }}
               >
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall6 gradient-text"
                   data-root-numanimholder2-6
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -1224,64 +1297,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-7 ringSmall7"
                 data-slot={5}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-540deg" }}
               >
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall7 gradient-text"
                   data-root-numanimholder2-7
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -1299,64 +1383,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-8 ringSmall8"
                 data-slot={3}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-468deg" }}
               >
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall8 gradient-text"
                   data-root-numanimholder2-8
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -1367,64 +1462,75 @@ const Home = () => {
                 className="ringSmall-numAnimHolder2-9 ringSmall9"
                 data-slot={6}
                 data-root="numAnimHolder2"
+                style={{ "-deg": "-576deg" }}
               >
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "0deg" }}
                 >
                   0
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "36deg" }}
                 >
                   1
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "72deg" }}
                 >
                   2
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "108deg" }}
                 >
                   3
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "144deg" }}
                 >
                   4
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "180deg" }}
                 >
                   5
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "216deg" }}
                 >
                   6
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "252deg" }}
                 >
                   7
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "288deg" }}
                 >
                   8
                 </div>
                 <div
                   className="panelSmall9 gradient-text"
                   data-root-numanimholder2-9
+                  style={{ "-angle": "324deg" }}
                 >
                   9
                 </div>
@@ -2801,34 +2907,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel0" data-root-numanimholder1-0>
+                  <div
+                    className="panel0"
+                    data-root-numanimholder1-0
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -2843,34 +2989,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel1" data-root-numanimholder1-1>
+                  <div
+                    className="panel1"
+                    data-root-numanimholder1-1
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -2881,34 +3067,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel2" data-root-numanimholder1-2>
+                  <div
+                    className="panel2"
+                    data-root-numanimholder1-2
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -2919,34 +3145,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel3" data-root-numanimholder1-3>
+                  <div
+                    className="panel3"
+                    data-root-numanimholder1-3
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -2957,34 +3223,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel4" data-root-numanimholder1-4>
+                  <div
+                    className="panel4"
+                    data-root-numanimholder1-4
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -2995,34 +3301,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel5" data-root-numanimholder1-5>
+                  <div
+                    className="panel5"
+                    data-root-numanimholder1-5
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -3033,34 +3379,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel6" data-root-numanimholder1-6>
+                  <div
+                    className="panel6"
+                    data-root-numanimholder1-6
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -3071,34 +3457,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel7" data-root-numanimholder1-7>
+                  <div
+                    className="panel7"
+                    data-root-numanimholder1-7
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -3116,34 +3542,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel8" data-root-numanimholder1-8>
+                  <div
+                    className="panel8"
+                    data-root-numanimholder1-8
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -3154,34 +3620,74 @@ const Home = () => {
                   data-slot={0}
                   data-root="numAnimHolder1"
                 >
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "0deg" }}
+                  >
                     0
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "36deg" }}
+                  >
                     1
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "72deg" }}
+                  >
                     2
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "108deg" }}
+                  >
                     3
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "144deg" }}
+                  >
                     4
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "180deg" }}
+                  >
                     5
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "216deg" }}
+                  >
                     6
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "252deg" }}
+                  >
                     7
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "288deg" }}
+                  >
                     8
                   </div>
-                  <div className="panel9" data-root-numanimholder1-9>
+                  <div
+                    className="panel9"
+                    data-root-numanimholder1-9
+                    style={{ "-angle": "324deg" }}
+                  >
                     9
                   </div>
                 </div>
@@ -3746,20 +4252,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  ) : (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <div className="alert alert-danger text-center m-0" role="alert">
-        {errorMessage ||
-          "URL parameters are missing or invalid. Key: token | Value"}
       </div>
     </div>
   );
